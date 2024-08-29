@@ -1,0 +1,127 @@
+*{
+   margin: 0;
+   padding: 0;
+   user-select: none;
+   box-sizing: border-box;
+   font-family: 'Poppins',sans-serif;
+   color: white;
+}
+.heading{
+    color: black;
+    text-align: center;
+
+}
+/* .container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10 8%;
+} */
+nav bit{
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/*.heading{
+    align-items: center;
+}
+ */
+.sidebar{
+    position: fixed;
+    width: 250px;
+    right: 0px;
+    height: 100%;
+    background: #4d4a4a;
+}
+.sidebar .text{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: #1e1e1e;
+    letter-spacing: 1px;
+}
+nav ul{
+    background: #1b1b1b;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    
+}
+nav ul li{
+    line-height: 60px;
+    border-bottom: 1px solid rgba(255, 255,255,0.1);
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+}
+nav ul li a:hover{
+    color: cyan;
+    background: #1e1e1e;
+    border-left-color: cyan;
+
+}
+
+
+
+.sidebar2{
+    position: fixed;
+    width: 200px;
+    left: 0px;
+    height: 100%;
+    background: #4c8bca;
+}
+
+nav ul{
+    background: #1b1b1b;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    
+}
+nav ul li{
+    line-height: 60px;
+    border-bottom: 1px solid rgba(255, 255,255,0.1);
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+}
+nav ul li a:hover{
+    color: cyan;
+    background: #1e1e1e;
+    border-left-color: cyan;
+}
